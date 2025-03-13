@@ -19,7 +19,7 @@ const App = () => {
       : 0;
   };
 
-  // Update EMI when downpayment changes
+  // update emi 
   const updateEmi = (e) => {
     const newDownpayment = Number(e.target.value);
     setDownpayment(newDownpayment);
